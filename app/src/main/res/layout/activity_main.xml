@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.romeo.caller.MainActivity">
+
+
+    <ToggleButton
+        android:id="@+id/on_off_togglebutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_x="5dp"
+        android:layout_y="436dp"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="248dp"
+        android:layout_height="183dp"
+        android:layout_x="63dp"
+        android:layout_y="184dp"
+        android:text="Call"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/input_edittext"
+        android:layout_width="321dp"
+        android:layout_height="109dp"
+        android:layout_x="29dp"
+        android:layout_y="44dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:visibility="invisible" />
+
+
+</AbsoluteLayout>
